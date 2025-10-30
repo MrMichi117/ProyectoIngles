@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Quest – Final Project Game</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>AI Quest: System Engineer Challenge</h1>
+    <p>Complete all 10 levels and earn points!</p>
+    <p id="score">Score: 0</p>
+  </header>
+
+  <canvas id="animationCanvas" width="300" height="150"></canvas>
+
+  <section id="gameArea">
+    <!-- Levels will be injected here -->
+  </section>
+
+  <section class="glossary">
+    <h2>Glossary</h2>
+    <button onclick="toggleGlossary()">Show/Hide Terms</button>
+    <div id="glossaryBox" class="hidden"></div>
+  </section>
+
+  <footer>
+    <p>Created by BRAYAN STEVEN QUINTERO RIVERA, BRALLHAM EDIXON PEREZ RODRIGUEZ, JALBER YEFREY MEDINA GOMEZ | OCTUBRE 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="glossary.js"></script>
+  <script src="canvas.js"></script>
+</body>
+</html>
